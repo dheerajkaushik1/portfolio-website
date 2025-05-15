@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/baloo-paaji" rel="stylesheet">
+    <link rel="website icon" href="Web-icon.svg">
+</head>
+
+<body onload="loader()">
+    <div id="PreLoader">
+        <span><img src="Preloader.gif" alt=""></span>
+    </div>
+    <header id="home">
+        <nav id="navbar">
+            <span class="nav-text">Portfolio</span>
+            <div class="menu-items">
+                <ul class="nav-links" style="display: none;">
+                    <li class="nav-link nav-link1"><a href="#home">Home</a></li>
+                    <li class="nav-link nav-link2"><a href="#About">About</a></li>
+                    <li class="nav-link nav-link4"><a href="#Services">Services</a></li>
+                    <li class="nav-link nav-link3"><a href="#Contact">Contact</a></li>
+                </ul>
+                <span class="menu"><img src="menu.svg" alt="" id="menu-img"></span>
+            </div>
+        </nav>
+        <div class="head-intro">
+            <h1>HI!</h1>
+            <h1>I'm <span>Dheeraj Kaushik</span></h1>
+            <p>A Full Stack Web Developer</p>
+            <button><a href="https://github.com/dheerajkaushik1?tab=repositories">Visit My Works</a></button>
+        </div>
+    </header>
+    <main>
+        <section class="sec-1" id="About">
+            <div class="sec-1-left">
+                <img src="MyPhoto (2).jpg" alt="">
+            </div>
+            <div class="sec-1-right">
+                <h5>Who Am I?</h5>
+                <h2>About...</h2>
+                <p>
+                    My name is Dheeraj Kaushik, and I am a passionate and dedicated Full Stack Web Developer with a
+                    strong background in Computer Science. <br>
+                    I have a keen interest in web development and have been working on various projects to enhance my
+                    skills. <br>
+                    I am proficient in HTML, CSS, and JavaScript, and I am also familiar with frameworks like React and
+                    Node.js. <br>
+                    I am always eager to learn new technologies and improve my skills in web development. <br>
+                    I am committed to delivering high-quality work and strive to exceed expectations in every project.
+                    <br>
+                    If you are interested in collaborating on a project or have any questions, please don't hesitate to
+                    contact me. <br>
+                </p>
+                <a download="Resume.png" href="Resume.png">Download CV</a>
+        </section>
+        <section class="sec-2" id="Services">
+            <div class="sec2-heading">
+                <h5>What I Do ?</h5>
+                <h2>Services...</h2>
+            </div>
+            <div class="sec2-services">
+                <div class="card card1">
+                    <img src="SVG1.svg" alt="Image">
+                    <h3>Web Development</h3>
+                    <p>I am a skilled web developer with expertise in HTML, CSS, JavaScript, React, and Node.js.</p>
+                </div>
+                <div class="card card2">
+                    <img src="SVG2.svg" alt="Image">
+                    <h3>Web Design</h3>
+                    <p>I am a skilled web designer with expertise in HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="card card3">
+                    <img src="SVG3.svg" alt="Image">
+                    <h3>Responsive Design</h3>
+                    <p>I am a skilled responsive web designer with expertise in HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="card card4">
+                    <img src="SVG4.svg" alt="Image">
+                    <h3>UI/UX Design</h3>
+                    <p>I am a basic UI/UX designer with basic knowledge of Figma </p>
+                </div>
+            </div>
+        </section>
+         <section class="hire-me-section">
+                <h1>Do You Want To Hire Me ?</h1>
+                <button onclick="hireMe()">Hire Me</button>
+        </section>
+        <section class="sec-3">
+            <div class="sec3-heading">
+                <h5>What I Have Done ?</h5>
+                <h2>Projects...</h2>
+            </div>
+            <div class="sec3-projects">
+                <div class="card card1" onclick="window.location.href='https://learning-webtech.netlify.app/'">
+                    <span>
+                        <h3>HTML Theory</h3>
+                        <h4>Category - Website</h4>
+                    </span>
+                </div>
+                <div class="card card2" onclick="window.location.href='https://learn-with-it.netlify.app/'">
+                   <span>
+                       <h3>C++ Theory</h3>
+                       <h4>Category - Website</h4>
+                   </span>
+                </div>
+                <div class="card card3" onclick="window.location.href='https://dheerajkaushik1.github.io/Netflix-Home-Page-Clone/'">
+                   <span>
+                       <h3>Netflix Clone</h3>
+                       <h4>Category - Website</h4>
+                   </span>
+                </div>
+            </div>
+        </section>
+        <section class="sec-4" id="Contact">
+            <div class="sec4-heading">
+                <h5>How Can You Contact Me ?</h5>
+                <h2>Contact...</h2>
+            </div>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScXDkoiWA4sX9wriqp2GRz58oZXefPEQ7h8DzjwQujb3teGvA/viewform?embedded=true" width="100%" height="686" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+        </section>
+    </main>
+    <footer>
+        <div class="text-foot">
+        <p>&copy; 2025 HTML Theory. All rights reserved.</p>
+        <p>This website is owned by Dheeraj Kaushik</p>
+        </div>
+        <div class="SM-logos">
+            <img src="FB-Icon.svg" alt="Image">
+            <img src="Insta-Icon.svg" alt="Image">
+            <img src="X-Icon.svg" alt="Image">
+            <img src="Pinterest-Icon.svg" alt="Image">
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
