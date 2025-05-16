@@ -521,6 +521,16 @@ main .hire-me-section button{
     cursor: pointer;
 }
 
+@media only screen and(max-width: 800px){
+    main .hire-me-section{
+        font-size: 12px;
+    }
+    main .hire-me-section button{
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
 main .sec-4 {
     display: flex;
     flex-direction: column;
