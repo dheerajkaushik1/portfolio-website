@@ -22,12 +22,15 @@ function loader(){
 }
 
 const navbar = document.querySelector('#navbar');
+const scrollTopBtn = document.querySelector('#ScrollTop-img');
 
 window.addEventListener('scroll', ()=>{
     if(window.scrollY > 10){
         navbar.classList.add('scrolled');
+        scrollTopBtn.style.display = "flex";
     } else{
         navbar.classList.remove('scrolled');
+        scrollTopBtn.style.display = "none";
     }
 })
 
@@ -35,4 +38,11 @@ function hireMe(){
     alert("Please contact me at +91 9306479470");
 }
 
+
+function ScrollTop(){
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
 
