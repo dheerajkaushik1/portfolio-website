@@ -23,6 +23,15 @@ body {
     font-family: "Baloo Paaji 2", sans-serif;
 }
 
+.scroll-top img {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    z-index: 999;
+}
+
 header {
     background-image: url("BGIMG\(header\).jpg");
     background-size: cover;
@@ -518,6 +527,9 @@ main .hire-me-section button{
     background-color: white;
     color: purple;
     font-size: 20px;
+    font-weight: 800;
+      font-family: 'Baloo Paaji', sans-serif;
+      letter-spacing: 0.5px;
     cursor: pointer;
 }
 
@@ -527,8 +539,8 @@ main .hire-me-section button{
         gap: 25vw;
     }
     main .hire-me-section button{
-        padding: 10px;
         font-size: 12px;
+        padding: 10px;
     }
 }
 
